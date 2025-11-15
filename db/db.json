@@ -39,6 +39,14 @@
       "descricao": "Espetáculo de encerramento do semestre dos alunos de dança.",
       "local": "Teatro Francisco Nunes",
       "imagem": "/images/banner4.jpg"
+    },
+    {
+      "titulo": "Exposição de Formatura da Turma de Artes Visuais",
+      "data": "15/11/2025",
+      "local": "Centro Cultural Salgado Filho",
+      "descricao": "Horizontes da Criação” celebra a formatura da turma de Artes Visuais da Escola Livre de Artes Arena da Cultura, reunindo obras que refletem a trajetória e o amadurecimento artístico de cada estudante. A mostra convida o público a explorar universos singulares, revelando criatividade, experimentação e liberdade de expressão em um espaço de talento emergente e celebração coletiva da arte.",
+      "imagem": "/images/exposicaoAVFormatura25.png",
+      "id": 6
     }
   ],
   "banners": [

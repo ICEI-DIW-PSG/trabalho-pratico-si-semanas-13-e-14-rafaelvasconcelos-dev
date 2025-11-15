@@ -4,17 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Rafael Vasconcelos">
-    <title>Escola Livre de Artes - Arena da Cultura</title>
+    <title>Calendário - Escola Livre de Artes</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="/assets/css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.7/main.min.css" rel="stylesheet">
+
+    <!-- CDN Full Callendar -->
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.19/index.global.min.js"></script>
+
 </head>
 
-<body class="border border-dark border-1">
+<body>
 
     <!-- Header -->
-    
     <header class="bg-dark text-light">
+
         <div class="container-fluid">
             <div class="row align-items-center text-center text-md-start py-3">
 
@@ -27,10 +32,10 @@
                 <!-- Título -->
                 <div class="col-12 col-md-8 text-center">
                     <h1 class="display-5 fw-bold m-0">
-                        <a href="index.html" class="text-decoration-none text-white">ESCOLA LIVRE DE ARTES <br>ARENA DA CULTURA</a>
+                        <a href="index.html" class="text-decoration-none text-white">ESCOLA LIVRE DE ARTES <br>ARENA DA
+                            CULTURA</a>
                     </h1>
                 </div>
-                
 
                 <!-- Botão hamburguer -->
                 <div class="col-12 col-md-2 text-end mt-2 mt-md-0">
@@ -50,14 +55,17 @@
                     <nav class="navbar navbar-expand-md">
                         <div class="collapse navbar-collapse justify-content-center" id="menuPrincipal">
                             <ul class="navbar-nav">
-                                <li class="nav-item"><a class="nav-link text-light active" href="#">Página Inicial</a></li>
-                                <li class="nav-item"><a class="nav-link text-light href="#">Quem Somos</a></li>
+                                <li class="nav-item"><a class="nav-link text-light" href="index.html">Página Inicial</a>
+                                </li>
+                                <li class="nav-item"><a class="nav-link text-light" href="#">Quem Somos</a></li>
                                 <li class="nav-item"><a class="nav-link text-light" href="#">Áreas Artísticas</a></li>
                                 <li class="nav-item"><a class="nav-link text-light" href="#">Biblioteca BELA</a></li>
                                 <li class="nav-item"><a class="nav-link text-light" href="#">Projetos</a></li>
                                 <li class="nav-item"><a class="nav-link text-light" href="#contato">Contato</a></li>
-                                <li class="nav-item"><a class="nav-link text-light" href="calendario.html">Calendário</a></li>
-                                <li class="nav-item"><a class="nav-link text-light" href="inscricao.html">Inscreva-se</a></li>
+                                <li class="nav-item"><a class="nav-link text-light"
+                                        href="calendario.html">Calendário</a></li>
+                                <li class="nav-item"><a class="nav-link text-light"
+                                        href="inscricao.html">Inscreva-se</a></li>
                             </ul>
                         </div>
                     </nav>
@@ -68,80 +76,11 @@
     </header>
 
     <!-- Main -->
-    <main class="mt-2 border-dark">
 
-        <!-- Carrossel -->
-        <section class="hero d-flex justify-content-center p-2   rounded shadow mb-4">
-
-            <div id="carouselExampleIndicators" class="carousel carousel-dark slide w-100" data-bs-ride="carousel" data-bs-wrap="true" data-bs-interval="5000">
-
-                <!-- Indicadores do carrossel -->
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                        aria-current="true"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"></button>
-                </div>
-
-                <!-- Slides do carrosel -->
-                <div class="carousel-inner" id="carousel-inner">
-                    <!-- Itens inseridos via JS -->
-                </div>
-
-                <!-- Botões de navegação do carrossel -->
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-
-                    <div class="bg-white bg-opacity-75" style="border-radius:25%; padding:1px;">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Anterior</span>
-                    </div>
-
-                </button>
-
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                    
-                    <div class="bg-white bg-opacity-75" style="backdrop-filter: blur(3px); border-radius:25%; padding:1px;">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Próximo</span>
-                    </div>
-                    
-                </button>
-
+    <main>
+        <div class="p-5">
+            <div id='calendar'>
             </div>
-
-        </section>
-        
-        <!-- Feed de notícias e Agenda -->
-        <section class="container my-4">
-            <div class="row g-4">
-
-                <!-- Feed Notícias -->
-                <div class="col-lg-8 order-1 order-lg-1">
-
-                    <h2 class="mb-4 text-center text-lg-center">Últimas Notícias</h2>
-
-                    <div id="feed-noticias" class="d-flex flex-column gap-3">
-                        <!-- Os cards de notícias serão inseridos aqui pelo JavaScript -->
-                    </div>
-
-                </div>
-
-                <!-- Agenda -->
-                <div class="col-lg-4 order-2 order-lg-2">
-
-                    <h2 class="mb-4 text-center text-lg-center">Agenda de Atividades</h2>
-
-                    <div id="agenda-eventos" class="d-flex flex-column gap-3">
-                        <!-- Os cards de eventos serão inseridos aqui pelo JavaScript -->
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
 
     </main>
 
@@ -162,26 +101,32 @@
                     <form id="formContato">
                         <div class="mb-2">
                             <label for="nomeContato" class="form-label">Nome:</label>
-                            <input type="text" class="form-control" id="nomeContato" name="nomeContato" placeholder="Seu nome completo" required>
+                            <input type="text" class="form-control" id="nomeContato" name="nomeContato"
+                                placeholder="Seu nome completo" required>
                         </div>
 
                         <div class="mb-2">
                             <label for="telefoneContato" class="form-label">Telefone:</label>
-                            <input type="tel" class="form-control" id="telefoneContato" name="telefoneContato" placeholder="(00) 00000-0000" required>
+                            <input type="tel" class="form-control" id="telefoneContato" name="telefoneContato"
+                                placeholder="(00) 00000-0000" required>
                         </div>
 
                         <div class="mb-2">
                             <label for="emailContato" class="form-label">Email:</label>
-                            <input type="email" class="form-control" id="emailContato" name="emailContato" placeholder="seuemail@exemplo.com" required>
+                            <input type="email" class="form-control" id="emailContato" name="emailContato"
+                                placeholder="seuemail@exemplo.com" required>
                         </div>
 
                         <div class="mb-3">
                             <label for="mensagemContato" class="form-label">Mensagem:</label>
-                            <textarea class="form-control" id="mensagemContato" name="mensagemContato" rows="4" placeholder="Digite sua mensagem aqui..." required></textarea>
+                            <textarea class="form-control" id="mensagemContato" name="mensagemContato" rows="4"
+                                placeholder="Digite sua mensagem aqui..." required></textarea>
                         </div>
 
-                        <button id="btnEnviarContato" type="button" class="btn btn-warning text-dark fw-semibold">Enviar</button>
-                        <button id="limparFormContato" type="button" class="btn btn-warning text-dark fw-semibold">Limpar</button>
+                        <button id="btnEnviarContato" type="button"
+                            class="btn btn-warning text-dark fw-semibold">Enviar</button>
+                        <button id="limparFormContato" type="button"
+                            class="btn btn-warning text-dark fw-semibold">Limpar</button>
                     </form>
 
                 </div>
@@ -232,13 +177,16 @@
                     </div>
 
                 </div>
+                <a href="admin.html" class="text-light text-end" style="font-size: 0.9rem; opacity: 0.7;">
+                    <i class="bi bi-lock-fill"></i> Acesso Restrito
+                </a>
+            </div>
+        </div>
 
-            </div>
-            
-            <!-- Direitos -->
-            <div class="text-center mt-4 pb-3 border-top border-secondary">
-                <p class="mb-0">© 2025 Escola Livre de Artes – Arena da Cultura. Todos os direitos reservados.</p>
-            </div>
+        <!-- Direitos -->
+        <div class="text-center mt-4 pb-3 border-top border-secondary">
+            <p class="mb-0">© 2025 Escola Livre de Artes – Arena da Cultura. Todos os direitos reservados.</p>
+        </div>
 
         </div>
 
@@ -246,6 +194,9 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/assets/scripts/app.js"></script>
+    <script>
+        alert("O link para acesso administrativo está disponível no rodapé da página.");
+    </script>
 
 </body>
 

@@ -6,8 +6,15 @@
   margin: 2%;
 }
 
+#agenda-eventos {
+    max-height: 860px;
+    overflow-y: auto;
+}
 
-
+/* Cursor em eventos do calendário público */
+#calendar .fc-event {
+    cursor: pointer; 
+}
 
  /* Responsividade: Carrossel */
  @media (max-width: 767px) {
