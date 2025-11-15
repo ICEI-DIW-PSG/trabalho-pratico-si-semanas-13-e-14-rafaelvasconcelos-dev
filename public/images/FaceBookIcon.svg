@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="f5273237-d7eb-4c2d-8c0b-7ec55cc73592" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .e25b9bea-07c4-464d-ade6-7383dd6ca9ab {
+        fill: #fff;
+      }
+
+      .aa157560-45bf-43da-98dd-7369d45adc70 {
+        fill: none;
+      }
+
+      .bd8d8a2b-f9d2-4668-a2fe-0f6ea3bafdd8 {
+        clip-path: url(#a24e58ee-27a6-4cf3-83b2-ff2381701e15);
+      }
+
+      .e5e03eb6-9882-450a-8654-fcaafb3a5f76 {
+        mask: url(#a8c4539c-8904-4ffd-8be0-9a2716ef109b);
+      }
+
+      .edaef935-a4aa-4b3f-ac62-0143ac7a5c89 {
+        fill: #67788A;
+      }
+    </style>
+    <clipPath id="a24e58ee-27a6-4cf3-83b2-ff2381701e15">
+      <rect class="aa157560-45bf-43da-98dd-7369d45adc70" width="32" height="32"/>
+    </clipPath>
+    <mask id="a8c4539c-8904-4ffd-8be0-9a2716ef109b" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+      <g id="fdec840a-b0eb-4881-9fff-5934a0207bde" data-name="mask0 2018 21711">
+        <path class="e25b9bea-07c4-464d-ade6-7383dd6ca9ab" d="M32,0H0V32H32Z"/>
+      </g>
+    </mask>
+  </defs>
+  <g class="bd8d8a2b-f9d2-4668-a2fe-0f6ea3bafdd8">
+    <g class="e5e03eb6-9882-450a-8654-fcaafb3a5f76">
+      <path class="edaef935-a4aa-4b3f-ac62-0143ac7a5c89" d="M16,0a16,16,0,0,1,1.91,31.89V21.23h4.57l.87-4.92H17.91V14.39c0-2.7,1.14-3.64,3.74-3.64.57,0,1.47,0,1.88.06h0V6.33A18.53,18.53,0,0,0,20,5.93h0a9.59,9.59,0,0,0-4.81,1l-.08,0-.3.2c-1.83,1.27-2.67,3.51-2.67,6.84v2.25H8.63v4.92h3.46V31.52h0l-.65-.18A16,16,0,0,1,16,0Z"/>
+    </g>
+  </g>
+</svg>

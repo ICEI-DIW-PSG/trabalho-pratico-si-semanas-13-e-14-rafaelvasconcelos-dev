@@ -1,0 +1,24 @@
+.hero {
+  border-left: 4px solid #FF951E;
+  border-right: 4px solid #FF951E;
+  border-top: 1px solid #FF951E;
+  border-bottom: 1px solid #FF951E;
+  margin: 2%;
+}
+
+
+
+
+ /* Responsividade: Carrossel */
+ @media (max-width: 767px) {
+     .carousel-caption {
+         position: static;
+         background: rgba(255, 255, 255, 0.9);
+         color: #000;
+         margin-top: 10px;
+         margin-bottom: 15px;
+         font-size: 0.8rem;
+     }
+
+
+ }

@@ -1,18 +1,108 @@
 {
-  "usuarios": [
+  "noticias": [
     {
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
+      "id": 1,
+      "titulo": "Inscrições Abertas para Oficina de Teatro",
+      "descricao": "Participe da nossa nova oficina de teatro para iniciantes. Vagas limitadas!",
+      "conteudo": "A Escola Livre de Artes - Arena da Cultura está com inscrições abertas para a Oficina de Iniciação Teatral. As aulas acontecerão todas as terças e quintas, das 19h às 22h, no Núcleo de Formação e Criação Artística e Cultural (NUFAC). O curso é voltado para maiores de 16 anos e não exige experiência prévia. Venha desenvolver sua expressividade e criatividade conosco!",
+      "imagem": "/images/teatro-NUFAC-ELA.jpg"
     },
     {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
+      "id": 2,
+      "titulo": "Exposição de Artes Visuais 'Cores da Cidade'",
+      "descricao": "Alunos da ELA apresentam trabalhos inspirados na paisagem urbana de Belo Horizonte.",
+      "conteudo": "A exposição 'Cores da Cidade' reúne pinturas, desenhos e fotografias produzidos pelos alunos do curso de Artes Visuais da Escola Livre de Artes. A mostra está em cartaz no Centro Cultural da Pampulha e pode ser visitada gratuitamente de segunda a sábado, das 9h às 18h.",
+      "imagem": "/images/Artes-Visuais-ELA.jpg"
+    }
+  ],
+  "eventos": [
+    {
+      "id": 3,
+      "titulo": "Show da banda 'Arena Rock'",
+      "data": "20/10/2025",
+      "descricao": "Apresentação especial da banda formada por professores e alunos da ELA.",
+      "local": "Praça da Liberdade",
+      "imagem": "/images/Arena-Rock.jpg"
+    },
+    {
+      "id": 4,
+      "titulo": "Sarau de Poesia 'Vozes da Periferia'",
+      "data": "25/10/2025",
+      "descricao": "Microfone aberto para poetas e artistas locais mostrarem seu talento.",
+      "local": "Arena da Cultura",
+      "imagem": "/images/Sarau-Poesia.jpg"
+    },
+    {
+      "id": 5,
+      "titulo": "Mostra de Dança Contemporânea",
+      "data": "30/10/2025",
+      "descricao": "Espetáculo de encerramento do semestre dos alunos de dança.",
+      "local": "Teatro Francisco Nunes",
+      "imagem": "/images/banner4.jpg"
+    }
+  ],
+  "banners": [
+    {
+      "id": 6,
+      "slide": 1,
+      "nome": "Teatro",
+      "descricao": "Aulas de teatro para iniciantes - Inscreva-se já!",
+      "imagem": "/images/banner1.jpg"
+    },
+    {
+      "id": 7,
+      "slide": 2,
+      "nome": "Aulas de Circo",
+      "descricao": "Aulas de circo para todas as idades - Venha se divertir!",
+      "imagem": "/images/banner2.jpg"
+    },
+    {
+      "id": 8,
+      "slide": 3,
+      "nome": "Patrimônio Cultural",
+      "descricao": "Aulas de patrimônio cultural - Conheça nossa história!",
+      "imagem": "/images/banner3.jpg"
+    },
+    {
+      "id": 9,
+      "slide": 4,
+      "nome": "Dança Contemporânea",
+      "descricao": "Aulas de dança contemporânea - Movimente-se conosco!",
+      "imagem": "/images/banner4.jpg"
+    },
+    {
+      "id": 10,
+      "slide": 5,
+      "nome": "Design Popular",
+      "descricao": "Aulas de design popular - Crie arte com a gente!",
+      "imagem": "/images/banner5.jpg"
+    }
+  ],
+  "inscritos": [
+    {
+      "nome": "Pessoa Teste Um",
+      "CPF": "123.456.789-10",
+      "email": "pessoa.teste@email.com",
+      "telefone": "(31) 99876-5432",
+      "curso": "musica",
+      "id": 1
+    },
+    {
+      "nome": "Pessoa Teste Dois",
+      "CPF": "789.456.123-01",
+      "email": "pessoa.dois@gmail.com",
+      "telefone": "(31) 97418-5296",
+      "curso": "musica",
+      "id": 2
+    }
+  ],
+  "mensagens": [
+    {
+      "nome": "Pessoa Teste Contato",
+      "telefone": "(31) 98520-7413",
+      "email": "pessoateste.contato@email.com",
+      "mensagem": "Teste de envio de mensagem para contato.",
+      "id": 1
     }
   ]
 }
